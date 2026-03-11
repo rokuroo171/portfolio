@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M. Rakka — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="nav">
+      <span class="nav-logo">rakka.</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-tag fade-up">Hello, I'm</p>
+        <h1 class="hero-name fade-up">M. Rakka <span class="aka">aka rokuroo</span></h1>
+        <p class="hero-desc fade-up">
+          A 16-year-old self-taught web developer from Indonesia.<br/>
+          I build things with HTML, CSS, and JavaScript.
+        </p>
+        <div class="hero-cta fade-up">
+          <a href="#projects" class="btn-primary">See my work</a>
+          <a href="#contact" class="btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- avatar -->
+      <div class="hero-avatar fade-up">
+        <div class="avatar-big"></div>
+        <div class="avatar-ring r1"></div>
+        <div class="avatar-ring r2"></div>
+      </div>
+
+      <div class="hero-deco deco-1"></div>
+      <div class="hero-deco deco-2"></div>
+    </section>
+
+    <!-- about -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-text reveal">
+            <p class="section-label">About</p>
+            <h2>Still learning,<br/><em>always building.</em></h2>
+            <p>Started with Scratch in 7th grade, tried Python out of curiosity, then found web development in 9th grade and never looked back.</p>
+            <p>Currently in 10th grade, building small projects to sharpen my skills and document the process. Every project teaches me something new.</p>
+            <div class="skills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Git</span>
+              <span>Vercel</span>
+            </div>
+          </div>
+
+          <div class="about-stats reveal">
+            <div class="stat-box">
+              <span class="stat-num">3+</span>
+              <span class="stat-lbl">Years learning</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">2</span>
+              <span class="stat-lbl">Projects shipped</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">16</span>
+              <span class="stat-lbl">Years old</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- journey timeline -->
+    <section class="section section-alt" id="journey">
+      <div class="container">
+        <p class="section-label reveal">Journey</p>
+        <h2 class="section-title reveal">How it started.</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-left">
+              <span class="timeline-year">2022</span>
+              <span class="timeline-age">age 13</span>
+            </div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>First lines of code</h3>
+              <p>Got introduced to Scratch at school. Got curious and started learning Python on my own — no specific goal, just wanted to understand how it worked.</p>
+              <div class="timeline-tags"><span>Scratch</span><span>Python</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-left">
+              <span class="timeline-year">2024</span>
+              <span class="timeline-age">age 15</span>
+            </div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Discovered the web</h3>
+              <p>Found web development in 9th grade. Saw some cool blogs and big project websites and thought — I want to build something like that. Started with HTML and CSS, self-taught.</p>
+              <div class="timeline-tags"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-left">
+              <span class="timeline-year">2025</span>
+              <span class="timeline-age">age 16</span>
+            </div>
+            <div class="timeline-dot active"></div>
+            <div class="timeline-content">
+              <h3>Building & shipping</h3>
+              <p>Started writing JavaScript, learned Git, and deployed my first project — FocusFlow — to the internet via Vercel. Currently building more and documenting the process.</p>
+              <div class="timeline-tags"><span>JavaScript</span><span>Git</span><span>Vercel</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label reveal">Projects</p>
+        <h2 class="section-title reveal">Things I've built.</h2>
+
+        <div class="projects-grid">
+
+          <div class="project-card reveal">
+            <div class="project-top">
+              <span class="project-num">01</span>
+              <div class="project-links">
+                <a href="https://github.com/Zenshiroo171/focusflow" target="_blank" rel="noreferrer">GitHub ↗</a>
+              </div>
+            </div>
+            <h3>FocusFlow</h3>
+            <p>Pomodoro Timer + To-Do List. Built from personal need — wanted one tool for both timer and task tracking.</p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <!-- slot for next project -->
+          <div class="project-card project-wip reveal">
+            <div class="project-top">
+              <span class="project-num">02</span>
+              <span class="wip-badge">Coming soon</span>
+            </div>
+            <h3>Next Project</h3>
+            <p>Working on something new. Check back later.</p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-wrap reveal">
+        <p class="section-label">Contact</p>
+        <h2>Let's connect.</h2>
+        <p class="contact-desc">Open to feedback, collabs, or just talking about web dev.</p>
+        <div class="contact-links">
+          <a href="mailto:mrakkakhairilazwar@gmail.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>mrakkakhairilazwar@gmail.com</span>
+          </a>
+          <a href="https://github.com/Zenshiroo171" target="_blank" rel="noreferrer" class="contact-item">
+            <span class="contact-icon">⌥</span>
+            <span>github.com/Zenshiroo171</span>
+          </a>
+          <a href="https://instagram.com/mhmmdr4kka" target="_blank" rel="noreferrer" class="contact-item">
+            <span class="contact-icon">◈</span>
+            <span>@mhmmdr4kka</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>Built by <strong>M. Rakka</strong> — HTML, CSS, JS. No frameworks. 🤙</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
