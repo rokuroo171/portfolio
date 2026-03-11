@@ -25,7 +25,7 @@ I am a high school student (Grade 10) with a strong interest in web development 
 | Project | Description | Stack | Link |
 |--------|-------------|-------|------|
 | **FocusFlow** | A productivity web app designed to help users stay focused and manage their time effectively. | HTML, CSS, JS | [View →](https://github.com/rokuroo171/focusflow) |
-| **Web Kelas** | A class website built to organize and share information for school purposes. | HTML, CSS, JS | Coming soon |
+| **Web Kelas** | A class website built to organize and share information for school purposes. | HTML, CSS, JS | [View →](https://github.com/rokuroo171/webkelas) |
 
 ---
 
